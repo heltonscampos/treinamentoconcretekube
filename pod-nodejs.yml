@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helton-nodejs
+  labels:
+    app: label-pod-helton-nodejs
+spec:
+  containers:
+    - name: pod-nodejs
+      image: heltonscampos/validadorcpf-nodejs-concrete
+      ports:
+        - containerPort: 3000
+
+        

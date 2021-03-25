@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helton-validadorcpf
+  labels:
+    app: label-pod-helton-dev-validadorcpf
+spec:
+  containers:
+    - name: pod-dev-java
+      image: heltonscampos/validadorcpf-concrete
+      ports:
+        - containerPort: 8081

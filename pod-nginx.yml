@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helton-nginx2
+  labels:
+    app: label-pod-helton-nginx
+spec:
+  containers:
+    - name: pod-nginx
+      image: nginx
+      ports:
+        - containerPort: 80
+
+        
