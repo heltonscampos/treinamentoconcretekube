@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: helton-validadorcpf
+  name: helton-dev-validadorcpf
   labels:
     app: label-pod-helton-dev-validadorcpf
 spec:

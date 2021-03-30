@@ -7,5 +7,5 @@ spec:
   selector: 
     app: label-pod-helton-dev-validadorcpf
   ports:
-    - port: 8001
+    - port: 8081
       nodePort: 30010
