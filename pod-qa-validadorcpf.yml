@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: pod-qa-java
-      image: heltonscampos/validadorcpf-concrete
+      image: heltonscampos/validadorcpf-concrete-novo
       ports:
         - containerPort: 8081

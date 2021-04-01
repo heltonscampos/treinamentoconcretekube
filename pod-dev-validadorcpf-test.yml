@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: helton-prod-validadorcpf
+  name: helton-dev-validadorcpf-test
   labels:
-    app: label-pod-helton-prod-validadorcpf
+    app: label-pod-helton-dev-validadorcpf-test
 spec:
   containers:
-    - name: pod-prod-java
+    - name: pod-dev-java-test
       image: heltonscampos/validadorcpf-concrete-novo
       ports:
         - containerPort: 8081
